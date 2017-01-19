@@ -1,0 +1,8 @@
+{
+    "proxy" : "http://598524:nokia@123@proxy.cognizant.com:6050/",
+    "strict-ssl": false, 
+	"https-proxy": "",
+    "rejectUnauthorized" : false,
+    "ambient":true,
+    "registryURL":"http://api.typings.org/"
+}

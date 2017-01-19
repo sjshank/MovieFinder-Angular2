@@ -1,0 +1,41 @@
+
+.container-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.app-navbar {
+    margin-top: 10px;
+    background-color: #36465d !important;
+    border-color: #36465d !important;
+}
+.app-navbar-brand, .app-navbar .navbar-nav > li > a, .app-navbar .navbar-nav > li > a:hover, .app-navbar .navbar-nav > li > a:visited {
+    color: #fff !important;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border-color: 1px solid #ccc;
+}
+.app-header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #36465d !important;
+    border-color: #36465d !important;
+}
+.user-name, .user-hr {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+div.vertical-line{
+      width: 1px; 
+      background-color: #36465d; /* Line color */
+      height: 100%;
+      float: left; 
+}
+
+.app-info{
+    font-size: 16px;
+    font-weight: bold;
+}

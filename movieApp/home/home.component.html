@@ -1,0 +1,50 @@
+<div class="panel panel-primary" style="border-color: #36465d !important;">
+    <div class="panel-heading app-header">
+        {{pTitle}}
+    </div>
+    <div *ngIf='user' class="panel-body">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <img src="{{user.avatar_url}}" class="img-responsive profile-img" />
+                    <br/>
+                    <div class="">Developed by:
+                        <h3 class="user-name">{{user.name}}</h3>
+                    </div>
+                    <hr class="user-hr">
+                    <div class="">{{user.company}}</div>
+                    <div class="">{{user.location}}</div>
+                    <div class="">{{user.email}}</div>
+                    <div class="">
+                        <a href="{{user.html_url}}">Github Profile</a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 hidden-md hidden-sm">
+                    <div class="vertical-line" style="height: 362px">
+                    </div>
+                </div>
+                
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <hr class="app-info-hr hidden-lg">
+                    <article style="padding-top: 10px;">
+                        <p class="app-info">
+                            Movie Viewer is web based sample application developed in Angular 2 where user can list and view movies.
+                        </p>
+                        <br/>
+                        <p>
+                            Steps for running app :
+                        </p>
+                        <ol>
+                            <li>Open a command prompt in the project's root directory.</li>
+                            <li>Type: `npm install` This installs the dependencies as defined in the package.json file.</li>
+                            <li>Type: `npm start` This launches the TypeScript compiler (tsc) to compile the application and wait for changes. It also starts the lite-server and launches the
+                                browser to run the application.</li>
+                            <li>Hit "localhost:3000" to see running application.</li>
+
+                        </ol>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
