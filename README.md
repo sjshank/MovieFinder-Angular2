@@ -1,6 +1,6 @@
-# MovieViewer-Angular2
+# MovieFinder-Angular2
 
-Movie Viewer is web based sample application developed in Angular 2 where user can list and view movies.
+Movie Finder is web based sample application developed in Angular 2 where user can list and view movies.
 
 1) Open a command prompt in the project's root directory
 
